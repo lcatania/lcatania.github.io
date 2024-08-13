@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
-    <title>Lorenzo Catania</title>
+    <title>lcatania</title>
 </head>
 <style>
     body {
@@ -16,8 +16,10 @@
     }
 
     #container {
-        width: 1280px;
         margin: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
     }
 
     h1,
@@ -30,13 +32,34 @@
         font-optical-sizing: auto;
         font-style: normal;
     }
+
+    p {
+        display: block;
+    }
+
+    .angular {
+        color: red;
+    }
+
+    .vue {
+        color: green;
+    }
+
+    .capacitor,
+    .tailwind {
+        color: #38bdf8;
+    }
+
+    .ts {
+        color: royalblue;
+    }
 </style>
 
 <body>
     <div id="container">
         <section>
             <h1>about me </h1>
-            <p>hi, I'm lorenzo. I'm a Software Engineer based in Germany.
+            <p>hi, I'm lorenzo. I'm a software engineer based in germany.
                 I was always obsessed about tracking (my own) health data and trying to optimize my diet, training and
                 sleep schedule.
             </p>
@@ -52,17 +75,18 @@
                 I started learning programming as a c# (wpf,winforms) apprentice and was always fascinated by
                 UX/UI-Design.
                 <br />
-                After that i fell in love (and learned to hate) the web platform an became a frontend developer. Mainly working with
-                <span style="color: red;">Angular</span>
-                and occasonly some <span style="color:green">Vue</span>.
-                Ive built mobile apps with cordova and capacitor.
+                After that i fell in love (and learned to hate) the web platform an became a frontend developer. Mainly
+                working with
+                <span class="angular">Angular</span>
+                and occasonly some <span class="vue">Vue</span>.
+                Ive built mobile apps with cordova and <span class="capacitor">Capacitor</span>.
                 <br />
                 <br />
-                Fast forward to today >>> I work as Software Engineer involved in several domains (Backend, Frontend,
-                CLI-Tools, Python Automation)
+                Fast forward to today >>> I work as Software Engineer involved in several domains (backend, frontend,
+                cli-tools, python automation)
                 <br />
-                My current stack looks like: C#, <span style="color:green">Python</span>, <span
-                    style="color: royalblue;">Typescript</span>, <span style="color: red;">Angular</span>
+                My current stack looks like: C#, <span class="vue">Python</span>, <span class="ts">Typescript</span>,
+                <span class="angular">Angular</span>
             </p>
         </section>
         <section>
@@ -75,10 +99,10 @@
             </p>
             <span>The stack currently is (It may change in the future):</span>
             <ul>
-                <li>Frontend: <span style="color: red;">Angular</span>,<span
-                        style="color: #38bdf8;">Tailwind,Capacitor</span></li>
+                <li>Frontend: <span class="angular">Angular</span>,<span class="capacitor">Tailwind,Capacitor</span>
+                </li>
                 <li>Backend: Bun,Elysia,SQLite</li>
-                <li>Database: Local SQLite with data syncing</li>
+                <li>Database: SQLite on both sides with data syncing</li>
             </ul>
         </section>
         <section>
@@ -100,6 +124,7 @@
                 <br />
                 <br />
                 training days: ~2500 kcal (C:255g, P:187g, F:68g Fiber: 30g)
+                <br />
                 <br />
                 rest days: ~2000kcal (C:192g, P:160g, F:66g Fiber: 22g)
             </p>
@@ -183,11 +208,10 @@
                 WIP
                 - WIP - WIP -
             </p>
-            
+
         </section>
-        <br/>
+        <br />
         <span>thank you, thats all :)</span>
     </div>
 </body>
-
 </html>
