@@ -16,14 +16,12 @@
     }
 
 
-
-
     #container {
         margin: auto;
         padding-left: 10px;
         padding-right: 10px;
         padding-bottom: 20px;
-        width: 800px;
+        width: 700px;
     }
 
     h1,
@@ -45,21 +43,25 @@
         color: red;
     }
 
-    .vue {
-        color: green;
+    .c-sharp {
+        color: #1A9F1F;
     }
 
-    .capacitor,
-    .tailwind {
-        color: #38bdf8;
+    .golang {
+        color: #67CFDD;
     }
 
-    .ts {
-        color: royalblue;
+    .nestjs {
+        color: #EA2960;
     }
 
     img {
-        border-radius: 100%;
+        transition: all 100ms ease-in;
+        border-radius: 50%;
+    }
+
+    img:hover {
+        border-radius: 0%;
     }
 
     @media only screen and (max-width: 768px) {
@@ -68,15 +70,23 @@
         }
     }
 </style>
+
 <body>
     <div id="container">
         <section>
-            
-            <h1 style="display: flex;align-items: center;gap: 0px 20px;"><img width="75" height="75" src="https://avatars.githubusercontent.com/u/41628606?v=4"/>Lorenzo Catania</h1>
+
+            <h1 style="display: flex;align-items: center;gap: 0px 20px;"><img width="75" height="75"
+                    src="https://avatars.githubusercontent.com/u/41628606?v=4" />Lorenzo Catania</h1>
             <h1>about me </h1>
-            <p>hi, I'm lorenzo. I'm a software engineer based in germany.
-                I was always obsessed about tracking (my own) health data and trying to optimize my diet, training and
-                sleep schedule.
+            <p>Hi, im lorenzo. I'm a software engineer based in germany.
+                I love fiddling with new technology.
+                <br />
+                <br />
+                My current professional stack is: <span class="angular">Angular</span>, <span class="c-sharp">C#</span>,
+                <span class="nestjs">NestJS</span>
+                <br />
+                <br />
+                In my spare time i build small games in <span class="golang">go</span>
             </p>
             <span>you can find me at:</span>
             <ul>
@@ -84,155 +94,6 @@
                 <li><a href="github.com/lctania">instagram @hi.iam.lolo</a></li>
             </ul>
         </section>
-        <section>
-            <h1>work</h1>
-            <p>
-                I started learning programming as a c# (wpf,winforms) apprentice and was always fascinated by
-                UX/UI-Design.
-                <br />
-                After that i fell in love (and learned to hate) the web platform an became a frontend developer. Mainly
-                working with
-                <span class="angular">Angular</span>
-                and occasonly some <span class="vue">Vue</span>.
-                Ive built mobile apps with cordova and <span class="capacitor">Capacitor</span>.
-                <br />
-                <br />
-                Fast forward to today >>> I work as Software Engineer involved in several domains (backend, frontend,
-                cli-tools, python automation)
-                <br />
-                My current stack looks like: C#, <span class="vue">Python</span>, <span class="ts">Typescript</span>,
-                <span class="angular">Angular</span>
-            </p>
-        </section>
-        <section>
-            <h1>projects</h1>
-            <p>
-                In my spare time i work on some side projects.
-                <br />
-                Because i love tracking and having a routine and all the available mobile apps were over complicated, i
-                started building my own minimal routine/data tracker app which is currently under development.
-            </p>
-            <span>The stack currently is (It may change in the future):</span>
-            <ul>
-                <li>Frontend: <span class="angular">Angular</span>,<span class="capacitor">Tailwind,Capacitor</span>
-                </li>
-                <li>Backend: Bun,Elysia,SQLite</li>
-                <li>Database: SQLite on both sides with data syncing</li>
-            </ul>
-        </section>
-        <section>
-            <h1>health protocol</h1>
-            <p>
-                <b>- general data (2024-08-13)</b>
-                <br />
-                <br />
-                height: 178cm
-                <br />
-                weight: 73kg
-                <br />
-                age: 28
-            </p>
-
-            <p>
-                <br />
-                <b>- food (2024-08-30)</b>
-                <br />
-                <br />
-                training days: ~2500 kcal (C:229g, P:175g, F:84g Fiber: 38g)
-                <br />
-                <br />
-                rest days: ~2380kcal (C:199g, P:174g, F:84g Fiber: 35g)
-            </p>
-
-            <p>
-                <br />
-                <b>- training (2024-08-13)</b>
-                <br />
-                <br />
-                Currently working a PPL (Push,Pull,Legs) split
-            </p>
-            <ul>
-                <li>Push</li>
-                <li>Pull</li>
-                <li>Rest (Running 4-10km)</li>
-                <li>Legs</li>
-                <li>Rest (Running 4-10km)</li>
-                <li>Repeat...</li>
-            </ul>
-            <span>Also my daily move goal is 10k Steps but most of the days im at 7-9k (needs to improve). I do some running in the morning every now and then (Maybe once a week)</span>
-
-            <p>
-                <br />
-                <b>- supplement (2024-08-13)</b>
-                <br />
-                <br />
-                My current daily supplement stack that i consume is:
-            </p>
-            <div style="display: flex">
-                <ul>
-                    <li>Vitamin A (133mcg)</li>
-                    <li>Vitamin D3 (165mcg)</li>
-                    <li>Vitamin E (6mg)</li>
-                    <li>Vitamin K2 (300mcg)</li>
-                    <li>Vitamin C (100mg)</li>
-                    <li>Vitamin B1 (3.3mg)</li>
-                    <li>Vitamin B2 (4.2mg)</li>
-                    <li>Niancin (35mg)</li>
-                    <li>Pantothenic acid (18mg)</li>
-                    <li>Vitamin B6 (5mg)</li>
-                    <li>Biotin (100mcg)</li>
-                    <li>Folic acid (200mcg)</li>
-                    <li>Vitamin B12 (20mcg)</li>
-                    <li>Magnesium (100mg)</li>
-                    <li>Zinc (35mg)</li>
-                    <li>Mangan (2mg)</li>
-                </ul>
-                <ul>
-                    <li>Copper (1mg)</li>
-                    <li>Iodine (150mcg)</li>
-                    <li>Chrom (200mcg)</li>
-                    <li>Selenium (55mcg)</li>
-                    <li>Molybaed (50mcg)</li>
-                    <li>Hesperin (200mcg)</li>
-                    <li>Quercetin (200mcg)</li>
-                    <li>Myo-Inositol (200mcg)</li>
-                    <li>Coenzym Q10 (200mcg)</li>
-                    <li>Cholinbitartrat (100mcg)</li>
-                    <li>Gingerexctract (100mcg)</li>
-                    <li>R-Alpha-Acid (100mcg)</li>
-                    <li>Piperin (2mg)</li>
-                    <li>NAC (750mg)</li>
-                    <li>Creatin (6g)</li>
-                    <li>Omega 3 (2g) EPA:1200mg DHA:900mg </li>
-                </ul>
-            </div>
-            <br/>
-            <span>Inspired by Bryan Johnson(Blueprint) im doing some reasearch and my health markers are getting
-                evaluatet.
-                Afterwards im trying some different supplements and tweak some parts.
-            </span>
-            <p>
-                <br />
-                <b>- sleep schedule (2024-08-21)</b>
-                <br />
-                <br />
-                Currently i dont have a optimal sleep schedule and my sleeping hygiene is less than optimal (mobile
-                phone in bed and doom scrolling in the evening).
-                I go to bed at 10pm and wake up at 6am.
-            </p>
-            <p>
-                <br />
-                <b>- health markers </b>
-                <br />
-                <br />
-                WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP - WIP -
-                WIP
-                - WIP - WIP -
-            </p>
-
-        </section>
-        <br />
-        <span>thank you, thats all :)</span>
     </div>
 </body>
 
